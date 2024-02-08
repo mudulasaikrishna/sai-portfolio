@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 60px;
+    width: 100vw;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hvr:hover{
+    border: 1px solid white;
+}
+.logobase{
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://th.bing.com/th/id/R.e6ab1ec2395e4cf1446cc9fc4bda89fc?rik=YvJoTXwLnTVRlA&riu=http%3a%2f%2foriginaljeeps.com%2famzlogo.png&ehk=XsFGEDDjhvvcCd7Yl6yKiLDTK7wADp2I78Fb2ejg7q4%3d&risl=&pid=ImgRaw&r=0");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.location, .returns0,.cart,.hello{
+    height: 50px;
+    padding: 5px;
+    padding-top: 12px;
+}
+.locop1{
+    font-size: 50%;
+}
+.locop2{
+    font-size: 70%;
+    font-weight: 600;
+}
+.locop11{
+    padding-left: 15px;
+    font-size: 50%;
+}
+#loca{
+    font-size: 1rem;
+}
+.locop22{
+    font-size: 70%;
+    font-weight: 600;
+}
+.search{
+    height: 40px;
+    width: 50vw;
+    display: flex;
+}
+#slt{
+    height: 40px;
+    width: 43px;
+    padding-left: 6px;
+    border: none;
+    background-color: rgb(188, 188, 188);
+    font-size: 11px;
+    color: rgb(98, 94, 94);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.btn1{
+    background-color: rgb(255, 170, 0);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 40px;
+    width: 43px;
+}
+.inp1{
+    padding-left: 15px;
+    outline: none;
+    background-color: white;
+    color: grey;
+    border: none;
+    width: 44vw;
+    height:40px;
+}
+.about{
+    width: 100vw;
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: .8em;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+}
+.about i{
+    font-size: 1.5em;
+    margin-right: .1em;
+}
+.cart i{
+    font-size: 2rem;
+}
+.bgimg{
+    height: 600px;
+    width: 100vw;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/Lawn_Garden/Ud/2024/Jan/Hero/1500_X_600-03-Pc-GW-Hero._CB583325281_.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.outermain{
+    width: 100vw;
+    margin-top: -350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background:linear-gradient(#8e8ee9 0%,#d7d7d7 50%);
+}
+.body{
+    width: 100vw;
+}
+.outer{
+    padding: 15px;
+    margin: 1rem 0rem .5rem 0rem;
+    height: 500px;
+    width: 23vw;
+    background-color: white;
+}
+.outer a{
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(2, 147, 225);
+}
+.outer1{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://www.theteacherdiva.com/wp-content/media/mtKBvzSA.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer2{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/27/c0/ca/27c0ca1051423ff3eebd822deffb45f0.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer3{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://th.bing.com/th/id/OIP.TW2jyeOY1rnb9gIXRxglbwHaKf?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer4{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/ea/71/cb/ea71cba4eacbc42def8f4abf2c71f1f9.jpg");
+    background-size: cover;
+    
+    padding: 15px;
+}
+.outer5{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://theinspiredroom.net/wp-content/uploads/2021/05/the-inspired-room-amazon-favorite-home-decor-lighting-gadgets-1.jpg");
+    background-size: cover;
+    padding: 15px;
+}
+.outer6{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://n3.sdlcdn.com/imgs/i/h/h/Prestige-Prestige-Supreme-Mixer-550W-SDL056869550-1-1ff9c.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer7{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://th.bing.com/th/id/OIP.TYzv3Q8PmPNNjZ8pjnNX-gHaJk?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer8{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/736x/12/f8/d2/12f8d22f0db0b8b9750276750e1beaea.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer9{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://n4.sdlcdn.com/imgs/f/2/t/Full-Traditional-Bridal-Dulhan-Set-SDL257397866-1-ec056.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer10{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/89/90/86/899086cba9e087b8fe215fb604055eb7.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer11{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://www.theteacherdiva.com/wp-content/media/mtKBvzSA.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.outer12{
+    height: 90%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/bf/87/80/bf878068221dfdeff877ac62205fe712.png");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.back{
+    width: 100vw;
+    text-align: center;
+    color: white;
+    padding: 12.5px 0px;
+    background-color: #3d526a;
+    font-size: 12.5px;
+}
+.anchs{
+    width: 100vw;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2a3748;
+    color: white;
+}
+.one a,.two a,.three a,.four a{
+    color: rgb(216, 216, 216);
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+}
+#sel1{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.sl{
+    width: 100vw;
+    padding: 25px 30%;
+    background-color: #2a3748;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#slt2{
+    color: grey;
+}
+#slt2{
+    color: grey;
+    padding: 0px 5px;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 35px;
+    width: 100px;
+}
+.loco{
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    background-image: url("https://th.bing.com/th/id/R.a54ef7e9ce283346ef0e2eb4ec73b567?rik=fF5IPSLSagZV3Q&riu=http%3a%2f%2frunningwildfilms.com%2fwp-content%2fuploads%2f2017%2f12%2famazon-logo-transparent.png&ehk=XVDzhoJHZIsE0qajwT025tGVFycyl3O3ugMl5TjZRhg%3d&risl=&pid=ImgRaw&r=0");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.acs{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2a3748;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+.acs a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    max-width: 70vw;
+    background-color: #2a3748;
+    max-width: 70vw;
+}
+.last{
+    width: 100vw;
+    padding: 20px 15% 0px 15%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #18212b;
+}
+.last p{
+    font-size: 12px;
+    color: rgb(220, 220, 220);
+}
+.last a{
+    font-size: 10px;
+    color: rgb(195, 195, 195);
+    text-decoration: none;
+    display: block;
+}
+.last div{
+    width: 15%;
+}
+.copy{
+    width: 100vw;
+    padding: 10px;
+    background-color: #18212b;
+    color: white;
+}
+.copy p{
+    font-size: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .header{
+        flex-wrap: wrap;
+        height: 60px;
+        width: 100vw;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logobase{
+        height: 25px;
+        width: auto;
+    }
+    .logo{
+        height: 100%;
+        width: 100%;
+        background-image: url("https://th.bing.com/th/id/R.e6ab1ec2395e4cf1446cc9fc4bda89fc?rik=YvJoTXwLnTVRlA&riu=http%3a%2f%2foriginaljeeps.com%2famzlogo.png&ehk=XsFGEDDjhvvcCd7Yl6yKiLDTK7wADp2I78Fb2ejg7q4%3d&risl=&pid=ImgRaw&r=0");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .location, .returns0,.cart,.hello{
+        height: 25px;
+    }
+    .locop1{
+        font-size: 1%;
+    }
+    .locop2{
+        font-size: 3%;
+    }
+    .locop11{
+        font-size: 1%;
+    }
+    #loca{
+        font-size: 1rem;
+    }
+    .locop22{
+        font-size: 3%;
+    }
+    .search{
+        height: 20px;
+        width: 40vw;
+        display: flex;
+    }
+    #slt{
+        height: 20px;
+        width: 23px;
+        padding-left: 3px;
+        border: none;
+        background-color: rgb(188, 188, 188);
+        font-size: 3%;
+        color: rgb(98, 94, 94);
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .btn1{
+        background-color: rgb(255, 170, 0);
+        color: white;
+        font-size: 3%;
+        border: none;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        height: 20px;
+        width: 23px;
+    }
+    .inp1{
+        outline: none;
+        background-color: white;
+        color: grey;
+        border: none;
+        width: 30vw;
+        height:20px;
+    }
+    .about{
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 25px;
+        background-color: #232f3e;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: .4em;
+    }
+    .about a{
+        text-decoration: none;
+        color: white;
+    }
+    .about i{
+        font-size: .8em;
+    }
+    .bgimg{
+        background-color: #8e8ee9;
+        height: 200px;
+        width: 100vw;
+        background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/Lawn_Garden/Ud/2024/Jan/Hero/1500_X_600-03-Pc-GW-Hero._CB583325281_.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .outermain{
+        margin-top: -100px;
+        padding: 10px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background:linear-gradient(#8e8ee9 0%,#d7d7d7 50%);
+    }
+    .body{
+        width: 100vw;
+    }
+    .outer{
+        padding: 8px;
+        height: 300px;
+        width: 60vw;
+        background-color: white;
+    }
+    .select0 i{
+        font-size: 6px;
+    }
+    h3{
+        font-size: 9px;
+    }
+    .outer a{
+        margin-top: 10px;
+        font-size: 7px;
+        text-decoration: none;
+        color: rgb(2, 147, 225);
+    }
+    .outer1{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://www.theteacherdiva.com/wp-content/media/mtKBvzSA.jpeg");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer2{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://i.pinimg.com/originals/27/c0/ca/27c0ca1051423ff3eebd822deffb45f0.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer3{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://th.bing.com/th/id/OIP.TW2jyeOY1rnb9gIXRxglbwHaKf?rs=1&pid=ImgDetMain");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer4{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://i.pinimg.com/originals/ea/71/cb/ea71cba4eacbc42def8f4abf2c71f1f9.jpg");
+        background-size: cover;
+        
+        padding: 15px;
+    }
+    .outer5{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://th.bing.com/th/id/OIP.qMZCnrW15KE7GykhdR3ZCwAAAA?w=474&h=715&rs=1&pid=ImgDetMain");
+        background-size: cover;
+        padding: 15px;
+    }
+    .outer6{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://n3.sdlcdn.com/imgs/i/h/h/Prestige-Prestige-Supreme-Mixer-550W-SDL056869550-1-1ff9c.jpeg");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer7{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://th.bing.com/th/id/OIP.TYzv3Q8PmPNNjZ8pjnNX-gHaJk?rs=1&pid=ImgDetMain");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer8{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://i.pinimg.com/736x/12/f8/d2/12f8d22f0db0b8b9750276750e1beaea.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer9{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://n4.sdlcdn.com/imgs/f/2/t/Full-Traditional-Bridal-Dulhan-Set-SDL257397866-1-ec056.jpeg");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer10{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://i.pinimg.com/originals/89/90/86/899086cba9e087b8fe215fb604055eb7.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer11{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://www.theteacherdiva.com/wp-content/media/mtKBvzSA.jpeg");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .outer12{
+        height: 90%;
+        width: 100%;
+        background-image: url("https://i.pinimg.com/originals/bf/87/80/bf878068221dfdeff877ac62205fe712.png");
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+    .back{
+        width: 100vw;
+        text-align: center;
+        color: white;
+        padding: 7px;
+        background-color: #3d526a;
+        font-size: 8px;
+    }
+    .anchs p{
+        font-size: 5px;
+    }
+    .anchs{
+        width: 100vw;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2a3748;
+        color: white;
+    }
+    .one a,.two a,.three a,.four a{
+        color: rgb(216, 216, 216);
+        display: block;
+        font-size: 5px;
+        text-decoration: none;
+    }
+    .sl{
+        width: 100vw;
+        padding: 10px 30%;
+        background-color: #2a3748;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #slt2{
+        color: grey;
+    }
+    #slt2{
+        color: grey;
+        padding: 0px 3px;
+        font-size: 7px;
+        background-color: transparent;
+        border: 1px solid grey;
+        border-radius: 3px;
+        height: 16px;
+        width: 45px;
+    }
+    .loco{
+        margin-top: 10px;
+        height: 16px;
+        width: 45px;
+        background-image: url("https://th.bing.com/th/id/R.a54ef7e9ce283346ef0e2eb4ec73b567?rik=fF5IPSLSagZV3Q&riu=http%3a%2f%2frunningwildfilms.com%2fwp-content%2fuploads%2f2017%2f12%2famazon-logo-transparent.png&ehk=XVDzhoJHZIsE0qajwT025tGVFycyl3O3ugMl5TjZRhg%3d&risl=&pid=ImgRaw&r=0");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .acs{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #2a3748;
+        padding: 10px 10px;
+        flex-wrap: wrap;
+    }
+    .acs a{
+        flex-wrap: wrap;
+        color: white;
+        text-decoration: none;
+        font-size: 6px;
+        background-color: #2a3748;
+    }
+    .last{
+        width: 100vw;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: #18212b;
+    }
+    .last p{
+        font-size: 6px;
+        color: rgb(220, 220, 220);
+    }
+    .last a{
+        font-size: 5px;
+        color: rgb(195, 195, 195);
+        text-decoration: none;
+        display: block;
+    }
+    .last div{
+        width: 15%;
+    }
+    .copy{
+        width: 100vw;
+        padding: 5px;
+        background-color: #18212b;
+        color: white;
+    }
+    .copy p{
+        font-size: 5px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .header{
+        background-color: #0f1111;
+        height: 30px;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logobase{
+        height: 95%;
+        width: 40px;
+        background-image: url("https://s3.amazonaws.com/freebiesupply/large/2x/amazon-logo-white.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .logobase:hover{
+        border: 1px solid white;
+    }
+    .locop1{
+        padding-left: 10rem;
+        font-size: 5px;
+    }
+    .locop2{
+        font-size: 7px;
+        font-weight: 650;
+    }
+    .location i{
+        font-size: .5rem;
+    }
+    .search{
+        width: 30%;
+    }
+    #slt{
+        background-color: transparent;
+        border: none;
+        height: 25px;
+        width: 20px;
+        color: rgb(99, 93, 93);
+        background-color: rgb(173, 177, 180);
+        border-top-left-radius: 1.5px;
+        border-bottom-left-radius: 1.5px;
+        padding-left: 5px;
+    }
+    .inp1{
+        height: 25px;
+        width: 60%;
+        border: none;
+        outline: none;
+        color: grey;
+        padding-left: 5px;
+    }
+    .btn1{
+        height: 25px;
+        width: 22px;
+        background-color: rgb(255, 200, 0);
+        border: none;
+        color: white;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .btn1 i{
+        font-size: 10px;
+    }
+    #slt1{
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 7px;
+        font-weight: 650;
+    }
+    .hello{
+        font-size: 5px;
+    }
+    .acc{
+        font-size: 7px;
+        font-weight: 650;
+    }
+    .cart i{
+        font-size: 15px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+

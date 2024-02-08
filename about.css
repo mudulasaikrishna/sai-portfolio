@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    animation: effects 1s;
+}
+@keyframes effects{
+    from{
+        opacity: 0;
+        transform: translatex(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #864af9;
+    padding: 5%;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.lrcont{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 2%;
+    height: 150px;
+    width: 400px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    box-shadow:inset 0 0 .5rem white;
+}
+.right{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 2%;
+    height: 150px;
+    width: 400px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    box-shadow:inset 0 0 .5rem white;
+}
+.para{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+.para1{
+    font-size: 17px;
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: #864af9;
+        padding: 4%;
+    }
+    p{
+        color: white;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    h3{
+        font-size:.9em;
+    }
+    .lrcont{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 1px solid white;
+        border-radius:10px;
+        color: white;
+        padding: 4%;
+        height: 18vh;
+        width: 70vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow:inset 0 0 .5rem white;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        padding: 4%;
+        height: 18vh;
+        width: 70vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow:inset 0 0 .5rem white;
+    }
+    .para{
+        font-size: .6em;
+        text-align: center;
+        color: white;
+    }
+    .para1{
+        font-size: .6em;
+    } 
+}

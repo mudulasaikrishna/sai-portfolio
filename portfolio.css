@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    animation: effects 1s;
+}
+@keyframes effects{
+    from{
+        opacity: 0;
+        transform: translatey(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+.portfolio-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.marque{
+    height:10vh;
+    width: 100%;
+    position: fixed;
+    color: white;
+}
+.menu{
+    display: flex;
+    height:15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    position: fixed;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    color: #F96D00;
+}
+.left, .right{
+    display: flex;
+}
+.left{
+    min-height: 100vh;
+    width: 70%;
+    background-color: #864AF9;
+    padding-left: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right{
+    min-height: 100vh;
+    width: 30%;
+    background:linear-gradient(#864AF9,#F96D00);
+}
+.icons a .fa-brands{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: white;
+}
+.icons a .fa-brands:hover{
+    transform: scale(1.2);
+    color: #F96D00;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons a .fa-solid{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    color: white;
+}
+.icons a .fa-solid:hover{
+    transform: scale(2);
+    color: #F96D00;
+}
+.content{
+    max-width: 40rem;
+    justify-content: start;
+    margin-right: 2rem;
+    z-index: 10;
+}
+.trans{
+    width: 13rem;
+    border-style: none;
+    height: 40px;
+    color: white;
+    border-radius: .5rem;
+    background-color: transparent;
+    border: 1.5px solid #F96D00;
+    margin-top: 2rem;
+}
+.trans:hover{
+    background-color: #F96D00;
+    color: white;
+}
+.orange{
+    width: 13rem;
+    border-style: none;
+    height: 40px;
+    color: white;
+    border-radius: .5rem;
+    background-color: #F96D00;
+    border: 1.5px solid #F96D00;
+    margin-top: 2rem;
+}
+.orange:hover{
+    background-color: transparent;
+    color: #F96D00;
+}
+.content p{  
+    line-height: 1.5rem;
+    color: antiquewhite;
+}
+.name{
+    color: #F96D00;
+    font-size:2.5rem;
+}
+.content h1{
+    font-size:2.5rem;
+    background: linear-gradient(to left,#1aff0e 35%,#02f6e2,#ebe302);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: style 3s linear infinite;
+}
+@keyframes style{
+    0%{
+        background-position: 10% 30%;
+    }
+    50%{
+        background-position: 30% 70%;
+    }
+    75%{
+        background-position: 70% 100%;
+    }
+}
+
+.anim{
+    color: #F96D00;
+    font-size: 1.8rem;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+h1 span{
+    color: rgb(6, 227, 61);
+}
+.content h2{
+    color: white;
+}
+.container .circle{
+    aspect-ratio: 1;
+    border-radius: 15px 50px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background-color: #864AF9;
+    width: 30rem;
+    height: 30rem;
+}
+.circle:nth-child(2){
+    height: 27rem;
+    width: 27rem;
+    background-image: url("https://th.bing.com/th/id/R.a777b9637ec86de597e3902d769ffdfc?rik=dkr1V6do%2bnezUg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fc%2f2%2f1173099-best-developer-wallpaper-hd-1920x1280-htc.jpg&ehk=cpS0yc7f%2f1d6Iv%2bBt0DPh0lhj%2fUcJy3FTDvcU927IPc%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 .5rem #F96D00;
+}
+.menu li a::after{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 100%;
+    height:0.1rem;
+    left:0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform .7s;
+}
+.menu li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.wp i{
+    font-size: 1rem;
+    color: rgba(5, 96, 5, 0.456);
+}
+
+@media screen and (max-width: 600px){
+    .portfolio-container{
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+    }
+    .menu{
+        display: flex;
+        height:6vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        position: fixed;
+    }
+    .menu li{
+        list-style: none;
+    }
+    .menu li a{
+        text-decoration: none;
+        color: white;
+        font-size: 9px;
+        font-weight: 300;
+        position: relative;
+        color: #F96D00;
+    }
+    .marque{
+        padding-bottom: 7px;
+        font-size: .5em;
+        height:10vh;
+        width: 100%;
+        position: fixed;
+    }
+    .left, .right{
+        display: flex;
+    }
+    .left{
+        min-height: 100vh;
+        width: 100%;
+        background-color: #864AF9;
+        padding-right: 15px;
+    }
+    .content{
+        max-width: 55vw;
+        
+    }
+    .content p{
+        max-width: 50vw;
+    }
+    .icons a .fa-brands{
+        color: white;
+        font-size: 0.9rem;
+        margin-left: 10px;
+    }
+    .icons a{
+        text-decoration: none;
+    }
+    .icons a .fa-solid{
+        color: white;
+        font-size: 0.7rem;
+        margin-left: 10px;
+    }
+    .trans{
+        width: 5rem;
+        border-style: none;
+        height: 20px;
+        color: white;
+        border-radius: .2rem;
+        background-color: transparent;
+        border: 0.5px solid #F96D00;
+        font-size: 6px;
+        margin-top: 10px;
+    }
+    .trans:hover{
+        background-color: #F96D00;
+        color: white;
+    }
+    .trans:active{
+        background-color: #F96D00;
+        color: white;
+    }
+    .orange{
+        width: 5rem;
+        border-style: none;
+        height: 20px;
+        color: white;
+        border-radius: .2rem;
+        background-color: #F96D00;
+        border: 0.5px solid #F96D00;
+        font-size: 6px;
+        margin-top: 10px;
+    }
+    .orange:hover{
+        background-color: transparent;
+        color: #F96D00;
+    }
+    .orange:active{
+        background-color: transparent;
+        color: #F96D00;
+    }
+    .content p{  
+        line-height: 1rem;
+        color: antiquewhite;
+        font-size: 9px;
+    }
+    .content h1{
+        font-size:1rem;
+        background: linear-gradient(to left,#1aff0e 35%,#02f6e2,#ebe302);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: style 3s linear infinite;
+    }
+    @keyframes style{
+        0%{
+            background-position: 10% 30%;
+        }
+        50%{
+            background-position: 30% 70%;
+        }
+        75%{
+            background-position: 70% 100%;
+        }
+    }
+    .content h2{
+        color: white;
+        font-size: 0.7rem;
+    }
+    .name{
+        font-size:0.7rem;
+        color: #F96D00;
+    }
+    .container .circle{
+        
+        border-radius: 3px;
+        position: absolute;
+        top: 50%;
+        left: 81%;
+        transform: translate(-50%,-50%);
+    }
+    .circle:nth-child(1){
+        background-color: #864AF9;
+        width: 8rem;
+        height: 8rem;
+    }
+    .circle:nth-child(2){
+        width: 7rem;
+        height: 7rem;
+        background-image: url("https://th.bing.com/th/id/R.a777b9637ec86de597e3902d769ffdfc?rik=dkr1V6do%2bnezUg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fc%2f2%2f1173099-best-developer-wallpaper-hd-1920x1280-htc.jpg&ehk=cpS0yc7f%2f1d6Iv%2bBt0DPh0lhj%2fUcJy3FTDvcU927IPc%3d&risl=&pid=ImgRaw&r=0");
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow:inset 0 0 .2rem #F96D00;
+    }
+    .menu li a::after{
+        content: "";
+        position: absolute;
+        background: white;
+        width: 100%;
+        height:0.1rem;
+        left:0;
+        bottom: -2px;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform .7s;
+    }
+    .menu li a:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}
