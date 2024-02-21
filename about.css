@@ -31,14 +31,14 @@ body{
 p{
     color: white;
 }
+.lrcont{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
 h1{
     color: white;
     text-align: center;
-}
-.lrcont{
-    width: 100vw
-    display: flex;
-    justify-content: space-evenly;
 }
 .left{
     text-align: center;
