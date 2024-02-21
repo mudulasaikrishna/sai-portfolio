@@ -86,7 +86,7 @@ footer p{
     border: 1px solid white;
     border-radius: 5px;
     padding-left: 20px;
-    width: 250px;
+    width: 16vw;
     height: 30px;
     outline: none;
     color: white;
@@ -97,7 +97,7 @@ footer p{
     border: 1px solid white;
     border-radius: 5px;
     padding-left: 20px;
-    width: 575px;
+    width: 37vw;
     height: 30px;
     outline: none;
     color: white;
@@ -106,7 +106,7 @@ footer p{
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
-    width: 575px;
+    width: 37vw;
     height: 60px;
     margin-top: 20px;
     outline: none;
