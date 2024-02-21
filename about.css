@@ -22,7 +22,11 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #864af9;
-    padding: 5%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 p{
     color: white;
@@ -32,8 +36,9 @@ h1{
     text-align: center;
 }
 .lrcont{
+    width: 100vw
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .left{
     text-align: center;
