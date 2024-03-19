@@ -131,7 +131,7 @@ body{
 }
 .content h1{
     font-size:2.5rem;
-    background: linear-gradient(to left,#F96D00 35%,#02f6e2,#ebe302);
+    background: linear-gradient(to left,#ebe302 35%,#02f6e2,#F96D00); 
     background-size: 200% auto;
     -webkit-background-clip: text;
     color: transparent;
