@@ -22,6 +22,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    border: 3px solid orange;
 }
 .marque{
     height:10vh;
