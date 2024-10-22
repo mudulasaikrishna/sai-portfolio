@@ -37,6 +37,8 @@ body{
     display: flex;
     height:15vh;
     width: 100%;
+    position: fixed;
+    top:0;
     justify-content: center;
     align-items: center;
     gap: 3rem;
