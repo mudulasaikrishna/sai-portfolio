@@ -13,7 +13,7 @@
     height: 90vh;
     padding: 30px 10%;
     background-image: url("n.png");
-    background-color: rgba(0,15,152,0.2);
+    opacity: 0.5;
     background-size: cover;
 }
 .navbar{
@@ -23,7 +23,7 @@
 .logo{
     height:50px;
     width: 135px;
-    background-image: url("https://brandslogos.com/wp-content/uploads/images/large/netflix-logo.png");
+    background-image: url("logon.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
