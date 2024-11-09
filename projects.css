@@ -51,7 +51,7 @@ p,h1{
 .pic{
     height:270px;
     width: 90%;
-    background-image: url("https://th.bing.com/th/id/R.c7c24d3719d380d6fd907d5d62ba1874?rik=LXw0izinTvqeMw&riu=http%3a%2f%2fmisimagenesde.com%2fwp-content%2fuploads%2f2017%2f06%2fnetflix-logo-4.jpg&ehk=a5c4b5mIQ1qJ6AbwMJeQkcHFxA6S6Nl5FfSKK6OlzcM%3d&risl=&pid=ImgRaw&r=0");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     border: 1px solid white;
@@ -73,7 +73,7 @@ p,h1{
 .pic2{
     height:270px;
     width: 90%;
-    background-image: url("https://th.bing.com/th/id/OIP.kaXXjkGSpi9kFJYtYsWRqAAAAA?rs=1&pid=ImgDetMain");
+    background-image: url("");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +96,7 @@ p,h1{
 .pic3{
     height:270px;
     width: 90%;
-    background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=EC2nyx1g&id=BFB1DD920F3DD590629725217334DCD95DF5A909&thid=OIP.EC2nyx1gt8Q4acL1LCYOmgHaEn&mediaurl=https%3a%2f%2fwww.artsprofessional.co.uk%2fsites%2fartsprofessional.co.uk%2ffiles%2fmain%2farticles%2fwords_0.jpg&exph=528&expw=848&q=words+images&simid=608035260977278866&FORM=IRPRST&ck=99CDFAFCCFA695BC894045C150F48C6E&selectedIndex=21&itb=0");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     border: 1px solid white;
@@ -112,7 +112,7 @@ button{
     margin-top: 15px;
 }
 .pic:hover,.pic2:hover,.pic3:hover{
-    transform: scale(0.5);
+    transform: scale(1.1);
     transition: 0.5s;
 }
 .jshs{
