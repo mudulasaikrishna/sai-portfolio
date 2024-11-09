@@ -115,6 +115,10 @@ button{
     transform: scale(1.1);
     transition: 0.5s;
 }
+.jshs:hover{
+    background-color: rgb(8, 225, 15);
+    color: white;
+}
 @media screen and (max-width: 900px){   
     .container{
         background-color: #864af9;
