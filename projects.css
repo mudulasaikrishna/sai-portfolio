@@ -115,6 +115,9 @@ button{
     transform: scale(1.1);
     transition: 0.5s;
 }
+.jshs{
+    cursor:pointer
+}
 .jshs:hover{
     background-color: rgb(8, 225, 15);
     color: white;
