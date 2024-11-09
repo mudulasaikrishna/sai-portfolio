@@ -118,6 +118,7 @@ button{
 .jshs:hover{
     background-color: rgb(8, 225, 15);
     color: white;
+    transition: 0.5s;
 }
 @media screen and (max-width: 900px){   
     .container{
