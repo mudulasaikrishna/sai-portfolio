@@ -13,6 +13,7 @@
     height: 90vh;
     padding: 30px 10%;
     background-image: url("n.png");
+    background-color: rgba(0,15,152,0.2);
     background-size: cover;
 }
 .navbar{
