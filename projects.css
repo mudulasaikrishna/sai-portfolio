@@ -51,7 +51,7 @@ p,h1{
 .pic{
     height:270px;
     width: 90%;
-    background-image: url("");
+    background-image: url("pNetflix.png");
     background-size: cover;
     background-position: center;
     border: 1px solid white;
@@ -73,7 +73,7 @@ p,h1{
 .pic2{
     height:270px;
     width: 90%;
-    background-image: url("");
+    background-image: url("pcollege.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +96,7 @@ p,h1{
 .pic3{
     height:270px;
     width: 90%;
-    background-image: url("");
+    background-image: url("pTexteditz");
     background-size: cover;
     background-position: center;
     border: 1px solid white;
