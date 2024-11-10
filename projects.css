@@ -166,7 +166,7 @@ button{
     .pic{
         height:20vh;
         width: 55vw;
-        background-image: url("https://th.bing.com/th/id/R.c7c24d3719d380d6fd907d5d62ba1874?rik=LXw0izinTvqeMw&riu=http%3a%2f%2fmisimagenesde.com%2fwp-content%2fuploads%2f2017%2f06%2fnetflix-logo-4.jpg&ehk=a5c4b5mIQ1qJ6AbwMJeQkcHFxA6S6Nl5FfSKK6OlzcM%3d&risl=&pid=ImgRaw&r=0");
+        background-image: url("pNetflix.png");
         background-size: cover;
         background-position: center;
         border: 1px solid white;
@@ -188,7 +188,7 @@ button{
     .pic2{
         height:20vh;
         width: 55vw;
-        background-image: url("https://th.bing.com/th/id/OIP.kaXXjkGSpi9kFJYtYsWRqAAAAA?rs=1&pid=ImgDetMain");
+        background-image: url("pcollege.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -211,7 +211,7 @@ button{
     .pic3{
         height:20vh;
         width: 55vw;
-        background-image: url("https://blocksolution.io/wp-content/uploads/2018/10/fiat-money-US-dollar.jpg");
+        background-image: url("pTexteditz.png");
         background-size: cover;
         background-position: center;
         border: 1px solid white;
