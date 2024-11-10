@@ -216,7 +216,7 @@ p{
     }
     .logo{
         height:20px;
-        width: 60px;
+        width: auto;
         background-image: url("logon1.png");
         background-size: contain;
         background-repeat: no-repeat;
