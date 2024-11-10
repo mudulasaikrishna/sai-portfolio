@@ -14,7 +14,7 @@
     padding: 30px 10%;
     background-image: url("n.png");
     background-size: cover;
-    background-color: rgba(0,15,152,0.2);
+    filter: brightness(0.5)
 }
 .navbar{
     display: flex;
