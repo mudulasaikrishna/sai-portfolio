@@ -212,6 +212,7 @@ p{
         padding: 10px 10px;
         background-image: url("n.png");
         background-size: cover;
+        filter: brightness(0.7)
     }
     .navbar{
         display: flex;
@@ -224,6 +225,7 @@ p{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        filter: brightness(1)
     }
     #selection{
         height: 18px;
