@@ -71,6 +71,7 @@ h1{
 }
 .para1{
     font-size: 17px;
+    text-align: justify;
 }
 @media screen and (max-width: 1200px){
     .container{
