@@ -27,6 +27,9 @@ body{
     border-left:3px solid #864AF9;
     border-right:3px solid #864AF9;
 }
+.pe{
+    text-align: justify;
+}
 .marque{
     height:10vh;
     width: 100%;
