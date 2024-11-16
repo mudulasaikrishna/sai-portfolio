@@ -49,7 +49,7 @@ p{
 .exp{
     font-size: 14px;
     margin-top: 100px;
-     text-align: center;
+    text-align: justify;
 }
 @media screen and (max-width: 900px){   
     .container{
