@@ -82,6 +82,7 @@ body{
 .icons a .fa-brands:hover{
     transform: scale(1.2);
     color: #F96D00;
+    transition: 0.5s;
 }
 .icons a{
     text-decoration: none;
@@ -129,6 +130,7 @@ body{
 .orange:hover{
     background-color: transparent;
     color: #F96D00;
+    transition: 0.5s;
 }
 .content p{  
     line-height: 1.5rem;
