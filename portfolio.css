@@ -116,6 +116,7 @@ body{
 .trans:hover{
     background-color: #F96D00;
     color: white;
+    transition: 0.5s;
 }
 .orange{
     width: 13rem;
