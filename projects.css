@@ -22,8 +22,8 @@ body{
     background-color: #864af9;
     color: white;
     padding: 50px;
-    height: 100vh;
     width: 100vw;
+    min-height: 100vh;
 }
 .pe{
     color: white;
@@ -123,7 +123,7 @@ p,h1{
 .pic4{
     height:270px;
     width: 90%;
-    background-image: url("portloan.avif");
+    background-image: url("portloan1.jpg");
     background-size: cover;
     background-position: center;
     border: 1px solid white;
@@ -138,9 +138,10 @@ button{
     border-radius: 5px;
     margin-top: 15px;
 }
-.pic:hover,.pic2:hover,.pic3:hover{
-    transform: scale(1.1);
+.pic:hover,.pic2:hover,.pic3:hover,.pic4:hover{
+    transform: scale(1.01);
     transition: 0.5s;
+    filter: brightness(75%);
 }
 .jshs{
     cursor:pointer
@@ -155,7 +156,7 @@ button{
         background-color: #864af9;
         color: white;
         padding: 25px;
-        height: 100vh;
+        min-height: 100vh;
         width: 100vw;
     }
     p,h1{
@@ -170,7 +171,7 @@ button{
     .pon{
         margin-top: 8px;
     }
-    .cont{co
+    .cont{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -244,6 +245,28 @@ button{
         border: 1px solid white;
         border-radius: 15px;
     }
+    .four{
+        margin-top: 2em;
+        height: 23vh;
+        width: 60vw;
+        border: 1px solid white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px 4px;
+        box-shadow:inset 0 0 .5rem white;
+    }
+    .pic4{
+        height:20vh;
+        width: 55vw;
+        background-image: url("portloan1.jpg");
+        background-size: cover;
+        background-position: center;
+        border: 1px solid white;
+        border-radius: 15px;
+    }
     button{
         height: 2em;
         width: 12em;
@@ -253,9 +276,7 @@ button{
         margin-top: 5px;
         font-size: .4em;
     }
-    .pic:hover,.pic2:hover,.pic3:hover{
-        transform: scale(1.04);
+    .pic:hover,.pic2:hover,.pic3:hover,.pic4:hover{
+        transform: scale(1.01);
     }
 }
-
-
