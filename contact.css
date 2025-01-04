@@ -169,20 +169,21 @@ footer p{
       height: 0.2px;
       width: 95vw;
       background-color: rgb(255, 255, 255);
+      margin-bottom: 3vh;
   }
   footer{
       margin-bottom: 0px;
       width: 95vw;
       border-radius: 5px;
       height: 2vh;
-      background-color: #10207A;
+      background-color: white;
       display: flex;
       align-items: center;
       justify-content: center;
   }
   footer p{
       color: white;
-      font-size: 8px;
+      font-size: 6px;
   }
   body{
       animation: none;
