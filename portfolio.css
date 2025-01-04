@@ -21,11 +21,8 @@ body{
 .portfolio-container{
     height: 100vh;
     width: 100vw;
+    border-radius: 20px;
     display: flex;
-    border-top:3px solid orange;
-    border-bottom:3px solid orange;
-    border-left:3px solid #864AF9;
-    border-right:3px solid #864AF9;
 }
 .pe{
     text-align: justify;
@@ -34,7 +31,7 @@ body{
     height:10vh;
     width: 100%;
     position: fixed;
-    color: white;
+    color: rgb(175, 171, 171);
 }
 .menu{
     display: flex;
@@ -52,10 +49,9 @@ body{
 }
 .menu li a{
     text-decoration: none;
-    color: white;
     font-weight: 500;
     position: relative;
-    color: #F96D00;
+    color: white;
 }
 .left, .right{
     display: flex;
@@ -63,7 +59,7 @@ body{
 .left{
     min-height: 100vh;
     width: 70%;
-    background-color: #864AF9;
+    background-color: #000080;
     padding-left: 2rem;
     justify-content: flex-start;
     align-items: center;
@@ -71,7 +67,7 @@ body{
 .right{
     min-height: 100vh;
     width: 30%;
-    background:linear-gradient(#864AF9,#F96D00);
+    background:linear-gradient(#000080,white);
 }
 .icons a .fa-brands{
     font-size: 2rem;
@@ -81,7 +77,7 @@ body{
 }
 .icons a .fa-brands:hover{
     transform: scale(1.2);
-    color: #F96D00;
+    color: #d0cdcb;
     transition: 0.5s;
 }
 .icons a{
@@ -90,12 +86,13 @@ body{
 .icons a .fa-solid{
     margin-top: 1rem;
     margin-left: 2rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: white;
 }
 .icons a .fa-solid:hover{
-    transform: scale(2);
-    color: #F96D00;
+    transform: scale(1.2);
+    color: #d0cdcb;
+    transition: 0.5s;
 }
 .content{
     max-width: 40rem;
@@ -110,11 +107,11 @@ body{
     color: white;
     border-radius: .5rem;
     background-color: transparent;
-    border: 1.5px solid #F96D00;
+    border: 1.5px solid white;
     margin-top: 2rem;
 }
 .trans:hover{
-    background-color: #F96D00;
+    background-color: #000080;
     color: white;
     transition: 0.5s;
 }
@@ -122,15 +119,15 @@ body{
     width: 13rem;
     border-style: none;
     height: 40px;
-    color: white;
+    color: #000080;
     border-radius: .5rem;
-    background-color: #F96D00;
-    border: 1.5px solid #F96D00;
+    background-color:white;
     margin-top: 2rem;
 }
 .orange:hover{
-    background-color: transparent;
-    color: #F96D00;
+    background-color: #000080;
+    border: 1px solid white;
+    color: white;
     transition: 0.5s;
 }
 .content p{  
@@ -138,8 +135,9 @@ body{
     color: antiquewhite;
 }
 .name{
-    color: #F96D00;
+    color: #00f9dc;
     font-size:2.5rem;
+    font-weight: 300;
 }
 .content h1{
     font-size:2.5rem;
@@ -185,7 +183,7 @@ h1 span{
     transform: translate(-50%,-50%);
 }
 .circle:nth-child(1){
-    background-color: #864AF9;
+    background-color: #000080;
     width: 30rem;
     height: 30rem;
 }
@@ -195,7 +193,7 @@ h1 span{
     background-image: url("https://th.bing.com/th/id/R.a777b9637ec86de597e3902d769ffdfc?rik=dkr1V6do%2bnezUg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fc%2f2%2f1173099-best-developer-wallpaper-hd-1920x1280-htc.jpg&ehk=cpS0yc7f%2f1d6Iv%2bBt0DPh0lhj%2fUcJy3FTDvcU927IPc%3d&risl=&pid=ImgRaw&r=0");
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow:inset 0 0 .5rem #F96D00;
+    box-shadow:inset 0 0 .5rem #000080;
 }
 .menu li a::after{
     content: "";
@@ -242,7 +240,6 @@ h1 span{
         font-size: 9px;
         font-weight: 300;
         position: relative;
-        color: #F96D00;
     }
     .marque{
         padding-bottom: 7px;
@@ -257,8 +254,8 @@ h1 span{
     .left{
         min-height: 100vh;
         width: 100%;
-        background-color: #864AF9;
-        padding-right: 15px;
+        background-color: #000080;
+        padding-right: 20px;
     }
     .content{
         max-width: 55vw;
@@ -277,7 +274,7 @@ h1 span{
     }
     .icons a .fa-solid{
         color: white;
-        font-size: 0.7rem;
+        font-size: .9rem;
         margin-left: 10px;
     }
     .trans{
@@ -287,36 +284,36 @@ h1 span{
         color: white;
         border-radius: .2rem;
         background-color: transparent;
-        border: 0.5px solid #F96D00;
-        font-size: 6px;
+        border: 0.5px solid white;
+        font-size: 7px;
         margin-top: 10px;
     }
     .trans:hover{
-        background-color: #F96D00;
+        background-color: none;
         color: white;
     }
     .trans:active{
-        background-color: #F96D00;
+        background-color: none;
         color: white;
     }
     .orange{
         width: 5rem;
         border-style: none;
         height: 20px;
-        color: white;
+        color: #000080;
         border-radius: .2rem;
-        background-color: #F96D00;
-        border: 0.5px solid #F96D00;
-        font-size: 6px;
+        background-color: white;
+        border: 1px solid white;
+        font-size: 7px;
         margin-top: 10px;
     }
     .orange:hover{
         background-color: transparent;
-        color: #F96D00;
+        color: none;
     }
     .orange:active{
         background-color: transparent;
-        color: #F96D00;
+        color: none;
     }
     .content p{  
         line-height: 1rem;
@@ -347,11 +344,10 @@ h1 span{
         font-size: 0.7rem;
     }
     .name{
-        font-size:0.7rem;
-        color: #F96D00;
+        font-size:1rem;
+        color: #00f953;
     }
     .container .circle{
-        
         border-radius: 3px;
         position: absolute;
         top: 50%;
@@ -359,7 +355,7 @@ h1 span{
         transform: translate(-50%,-50%);
     }
     .circle:nth-child(1){
-        background-color: #864AF9;
+        background-color: #000080;
         width: 8rem;
         height: 8rem;
     }
@@ -369,7 +365,7 @@ h1 span{
         background-image: url("https://th.bing.com/th/id/R.a777b9637ec86de597e3902d769ffdfc?rik=dkr1V6do%2bnezUg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fc%2f2%2f1173099-best-developer-wallpaper-hd-1920x1280-htc.jpg&ehk=cpS0yc7f%2f1d6Iv%2bBt0DPh0lhj%2fUcJy3FTDvcU927IPc%3d&risl=&pid=ImgRaw&r=0");
         background-size: cover;
         background-repeat: no-repeat;
-        box-shadow:inset 0 0 .2rem #F96D00;
+        box-shadow:inset 0 0 .2rem #000080;
     }
     .menu li a::after{
         content: "";
