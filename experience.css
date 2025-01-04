@@ -21,7 +21,7 @@ body{
 .container{
     height: 100vh;
     width: 100vw;
-    background-color: #864af9;
+    background-color: #000080;
     color: white;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ p{
     .container{
         height: 100vh;
         width: 100vw;
-        background-color: #864af9;
+        background-color: #000080;
         color: white;
         display: flex;
         flex-direction: column;
