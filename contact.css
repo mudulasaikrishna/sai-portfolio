@@ -38,17 +38,6 @@ footer p{
     color: #10207A;
     font-size: 10px;
 }
-body{
-    animation: bod 2s;
-  }
-  @keyframes bod{
-    0%{
-        transform: translatey(-10px);
-    }
-    100%{
-        transform: translatey(10px);
-    }
-}
 footer{
     margin-bottom: 10px;
     width: 90vw;
@@ -185,16 +174,6 @@ footer p{
       color: black;
       font-size: 6px;
   }
-  body{
-      animation: none;
-    }
-    @keyframes bod{
-      0%{
-          transform: translatey(-10px);
-      }
-      100%{
-          transform: translatey(10px);
-      }
   }
   .contact-section {
       width: 100%;
