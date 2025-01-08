@@ -38,7 +38,7 @@ footer p{
     font-size: 10px;
 }
 body{
-    animation: bod 2s;
+    animation: none;
   }
   @keyframes bod{
     0%{
