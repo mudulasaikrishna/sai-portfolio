@@ -19,44 +19,34 @@ body{
         transform: translatex(0);
     }
 }
-.Abtcont{
-    display: flex;
-    width: 100vw;
+.abtcont{
+    padding: 2vh 2vw;
     min-height: 100vh;
-    justify-content:center;
+    width: 100vw;
+    background-color: #000080;
+    display: flex;
+    justify-content: start;
     align-items: center;
-    background-color: white;
     flex-direction: column;
+    gap: 2vh;
 }
 h1{
+    text-align: center;
     color: white;
 }
-.content{
-    margin-top: 2vh;
-    box-shadow: 0px 0px 2px white;
-    border-radius: 10px;
-    text-align: justify;
-    color: white;
-    padding: 3vh 3vw;
+.inner{
     width: 80vw;
-    height: auto;
+    text-align: justify;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3vh 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
 }
-strong{
-    color: white;
-    font-size: 15px;
-}
-ol li{
-    list-style: none; 
-    color: rgb(190, 190, 190);
-    font-size: 13px;
-}
-p{
-    font-size: 12px;
-}
-h4{
-    font-weight: 100;
-}
-@media screen and (max-width: 1200px){
+@media(max-width:500px){
     body{
         animation: effects 1s;
     }
@@ -70,43 +60,38 @@ h4{
             transform: translatex(0);
         }
     }
-    .Abtcont{
-        display: flex;
-        width: 100vw;
+    .abtcont{
+        padding: 1vh 1vw;
         min-height: 100vh;
-        justify-content:center;
-        align-items: center;
+        width: 100vw;
         background-color: #000080;
+        display: flex;
+        justify-content: start;
+        align-items: center;
         flex-direction: column;
+        gap: 1vh;
     }
     h1{
+        text-align: center;
         color: white;
         font-size: 15px;
     }
-    .content{
-        margin-top: 2vh;
-        box-shadow: 0px 0px 2px white;
-        border-radius: 4px;
+    .inner{
+        width: 95vw;
         text-align: justify;
-        color: white;
-        padding: 3vh 3vw;
-        width: 90vw;
-        height: auto;
+        background-color: white;
+        border-radius: 2px;
+        padding: 1vh 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1vh;
     }
-    strong{
-        color: white;
-        font-size: 10px;
-    }
-    ol li{
-        list-style: none; 
-        color: rgb(190, 190, 190);
-        font-size: 9px;
-    }
-    p{
+    h3{
         font-size: 12px;
     }
-    h4{
-        font-weight: 100;
+    p,ol li{
         font-size: 10px;
     }
 }
