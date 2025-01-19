@@ -18,10 +18,16 @@ body{
         transform: translatey(0);
     }
 }
-.portfolio-container{
-    height: 100vh;
+.desg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    border-radius: 20px;
+    height: 100vh;
+}
+.portfolio-container{
+    height: 98vh;
+    width: 99vw;
     display: flex;
 }
 .pe{
@@ -31,6 +37,8 @@ body{
     height:10vh;
     width: 100%;
     position: fixed;
+    padding-left: 2vw;
+    padding-right: 2vw;
     color: rgb(175, 171, 171);
 }
 .menu{
@@ -57,6 +65,8 @@ body{
     display: flex;
 }
 .left{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     min-height: 100vh;
     width: 70%;
     background-color: #000080;
@@ -67,6 +77,8 @@ body{
 .right{
     min-height: 100vh;
     width: 30%;
+    border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
     background:linear-gradient(#000080,white);
 }
 .icons a .fa-brands{
@@ -218,8 +230,8 @@ h1 span{
 
 @media screen and (max-width: 1200px){
     .portfolio-container{
-        min-height: 100vh;
-        width: 100vw;
+        min-height: 99.5vh;
+        width: 99.5vw;
         display: flex;
     }
     .menu{
@@ -247,6 +259,7 @@ h1 span{
         height:10vh;
         width: 100%;
         position: fixed;
+        padding: 0vh 4vw;
     }
     .left, .right{
         display: flex;
@@ -255,7 +268,13 @@ h1 span{
         min-height: 100vh;
         width: 100%;
         background-color: #000080;
+        border-top-left-radius: none;
+        border-bottom-left-radius: none;
         padding-right: 20px;
+    }
+    .right{
+        border-bottom-right-radius: none;
+        border-top-right-radius: none;
     }
     .content{
         max-width: 55vw;
