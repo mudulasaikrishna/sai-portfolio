@@ -37,13 +37,36 @@ p,h1{
     align-items: center;
     gap: 20px;
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 .pon{
     margin-top: 10px;
 }
+.Zero{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
+    box-shadow:inset 0 0 .5rem white;
+}
+.pic0{
+    height:270px;
+    width: 90%;
+    background-image: url("calculation.avif");
+    background-size: contain;
+    background-position: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    transition: 0.5s;
+}
 .one{
-    height: 360PX;
-    width: 400px;
+    height: 300PX;
+    width: 300px;
     border: 1px solid white;
     border-radius: 15px;
     display: flex;
@@ -64,8 +87,8 @@ p,h1{
     transition: 0.5s;
 }
 .two{
-    height: 360PX;
-    width: 400px;
+    height: 300PX;
+    width: 300px;
     border: 1px solid white;
     border-radius: 15px;
     display: flex;
@@ -87,8 +110,8 @@ p,h1{
     transition: 0.5s;
 }
 .three{
-    height: 360PX;
-    width: 400px;
+    height: 300PX;
+    width: 300px;
     border: 1px solid white;
     border-radius: 15px;
     display: flex;
@@ -109,8 +132,8 @@ p,h1{
     transition: 0.5s;
 }
 .four{
-    height: 360PX;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border: 1px solid white;
     border-radius: 15px;
     display: flex;
@@ -138,7 +161,7 @@ button{
     border-radius: 5px;
     margin-top: 15px;
 }
-.pic:hover,.pic2:hover,.pic3:hover,.pic4:hover{
+.pic0:hover,.pic:hover,.pic2:hover,.pic3:hover,.pic4:hover{
     transform: scale(1.01);
     transition: 0.5s;
     filter: brightness(75%);
@@ -178,6 +201,27 @@ button{
         align-items: center;
         margin-top: 20px;
         font-size: 1em;
+    }
+    .Zero{
+        height: 23vh;
+        width: 60vw;
+        border: 1px solid white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px 4px;
+        box-shadow:inset 0 0 .5rem white;
+    }
+    .pic0{
+        height:20vh;
+        width: 55vw;
+        background-image: url("calculation.avif");
+        background-size: cover;
+        background-position: center;
+        border: 1px solid white;
+        border-radius: 15px;
     }
     .one{
         height: 23vh;
@@ -276,7 +320,7 @@ button{
         margin-top: 5px;
         font-size: .4em;
     }
-    .pic:hover,.pic2:hover,.pic3:hover,.pic4:hover{
+    .pic0:hover,.pic:hover,.pic2:hover,.pic3:hover,.pic4:hover{
         transform: scale(1.01);
     }
 }
