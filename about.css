@@ -8,6 +8,7 @@
 }
 body{
     animation: effects 1s;
+    background-color: #000080;    
 }
 @keyframes effects{
     from{
